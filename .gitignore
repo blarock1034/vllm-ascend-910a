@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ascend-ops 编译产物
+ascend-ops/.build/
+ascend-ops/.install/
+ascend-ops/ascend910a_extras/*.so
+ascend-ops/ascend910a_extras/opp_install/
+ascend-ops/csrc/opdev/build_out/
+
+# vllm-ascend fork 编译产物
+vllm-ascend/build/
+vllm-ascend/vllm_ascend/*.so
+vllm-ascend/vllm_ascend/libvllm_ascend_kernels.so
+
+# CANN 编译缓存与环境
+*.log
+.ascend_cache/
